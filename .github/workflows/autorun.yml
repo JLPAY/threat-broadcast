@@ -49,7 +49,7 @@ jobs:
           password: ${{ secrets.MAIL_PASS }}
           from: ${{ secrets.MAIL_USER }}
           to: ${{ secrets.MAIL_TO }}
-          body: file://cache/mail_content.dat
+          html_body: file://cache/mail_content.dat
           content_type: text/html
           subject: 威胁情报播报
 
