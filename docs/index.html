@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2022-07-25 13:02:47 -->
+<!-- RELEASE TIME : 2022-07-25 14:36:29 -->
 <html lang="zh-cn">
 
  <head>
@@ -284,6 +284,86 @@
        <th width="5%">URL</th>
       </tr>
       <tr>
+       <td>159ca9867fd9f560482fe26b3913a621</td>
+       <td>CVE-2022-2341</td>
+       <td>2022-07-25 13:15:00 <img src="imgs/new.gif" /></td>
+       <td>The Simple Page Transition WordPress plugin through 1.4.1 does not sanitise and escape some of its settings, which could allow high privilege users such as admin to perform Stored Cross-Site Scripting attacks when the unfiltered_html capability is disallowed (for example in multisite setup)</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-2341">详情</a></td>
+      </tr>
+
+      <tr>
+       <td>95c36117a64c246c6a4598a9c45e41b3</td>
+       <td>CVE-2022-2340</td>
+       <td>2022-07-25 13:15:00 <img src="imgs/new.gif" /></td>
+       <td>The W-DALIL WordPress plugin through 2.0 does not sanitise and escape some of its fields, which could allow high privilege users such as admin to perform Stored Cross-Site Scripting attacks when the unfiltered_html capability is disallowed (for example in multisite setup)</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-2340">详情</a></td>
+      </tr>
+
+      <tr>
+       <td>13a43493e951ed9f63b2459de8bf19c5</td>
+       <td>CVE-2022-2299</td>
+       <td>2022-07-25 13:15:00 <img src="imgs/new.gif" /></td>
+       <td>The Allow SVG Files WordPress plugin through 1.1 does not sanitise uploaded SVG files, which could allow users with a role as low as Author to upload a malicious SVG containing XSS payloads</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-2299">详情</a></td>
+      </tr>
+
+      <tr>
+       <td>322d96c9e9d6a5ab1f52d0c967c47272</td>
+       <td>CVE-2022-2239</td>
+       <td>2022-07-25 13:15:00 <img src="imgs/new.gif" /></td>
+       <td>The Request a Quote WordPress plugin through 2.3.7 does not sanitise and escape some of its settings, allowing high privilege users such as admin to perform cross-Site Scripting attacks even when the unfiltered_html capability is disallowed.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-2239">详情</a></td>
+      </tr>
+
+      <tr>
+       <td>a54615903dd84516637e6f587643b332</td>
+       <td>CVE-2022-2219</td>
+       <td>2022-07-25 13:15:00 <img src="imgs/new.gif" /></td>
+       <td>The Unyson WordPress plugin before 2.7.27 does not sanitise and escape a parameter before outputting it back in the page, leading to a Reflected Cross-Site Scripting</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-2219">详情</a></td>
+      </tr>
+
+      <tr>
+       <td>e805f2947e2c30a7e281cbae282b80ce</td>
+       <td>CVE-2022-2189</td>
+       <td>2022-07-25 13:15:00 <img src="imgs/new.gif" /></td>
+       <td>The WP Video Lightbox WordPress plugin before 1.9.5 does not escape the $_SERVER['REQUEST_URI'] parameter before outputting it back in an attribute, which could lead to Reflected Cross-Site Scripting in old web browsers</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-2189">详情</a></td>
+      </tr>
+
+      <tr>
+       <td>cf7968e14c1fd8c7e0b495d90830aa3f</td>
+       <td>CVE-2022-2072</td>
+       <td>2022-07-25 13:15:00 <img src="imgs/new.gif" /></td>
+       <td>The Name Directory WordPress plugin before 1.25.3 does not sanitise and escape a parameter before outputting it back in the page, leading to a Reflected Cross-Site Scripting. Furthermore, as the payload is also saved into the database after the request, it leads to a Stored XSS as well</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-2072">详情</a></td>
+      </tr>
+
+      <tr>
+       <td>d6e267406f4325b682e4e5d78372c655</td>
+       <td>CVE-2022-2071</td>
+       <td>2022-07-25 13:15:00 <img src="imgs/new.gif" /></td>
+       <td>The Name Directory WordPress plugin before 1.25.4 does not have CSRF check when importing names, and is also lacking sanitisation as well as escaping in some of the imported data, which could allow attackers to make a logged in admin import arbitrary names with XSS payloads in them.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-2071">详情</a></td>
+      </tr>
+
+      <tr>
+       <td>b7b30b9de5447c543512bfa7a791e604</td>
+       <td>CVE-2022-1551</td>
+       <td>2022-07-25 13:15:00 <img src="imgs/new.gif" /></td>
+       <td>The SP Project & Document Manager WordPress plugin through 4.57 uses an easily guessable path to store user files, bad actors could use that to access other users' sensitive files.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-1551">详情</a></td>
+      </tr>
+
+      <tr>
+       <td>c55dfb0c5e385b3aa6304863618d2ece</td>
+       <td>CVE-2022-1539</td>
+       <td>2022-07-25 13:15:00 <img src="imgs/new.gif" /></td>
+       <td>The Exports and Reports WordPress plugin before 0.9.2 does not sanitize and validate data when generating the CSV to export, which could lead to a CSV injection, by the use of Microsoft Excel DDE function, or to leak data via maliciously injected hyperlinks.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-1539">详情</a></td>
+      </tr>
+
+      <tr>
        <td>b58c8085741fac09b837d0cd81dc4d11</td>
        <td>CVE-2022-36450</td>
        <td>2022-07-25 07:15:00 <img src="imgs/new.gif" /></td>
@@ -441,86 +521,6 @@
        <td>2022-07-22 23:15:00</td>
        <td>Dataease v1.11.1 was discovered to contain a SQL injection vulnerability via the parameter dataSourceId.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-34114">详情</a></td>
-      </tr>
-
-      <tr>
-       <td>dfe6d6e34c5cf031e716060ea050f260</td>
-       <td>CVE-2022-34113</td>
-       <td>2022-07-22 23:15:00</td>
-       <td>An issue in the component /api/plugin/upload of Dataease v1.11.1 allows attackers to execute arbitrary code via a crafted plugin.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-34113">详情</a></td>
-      </tr>
-
-      <tr>
-       <td>d38d646a04d1d35480100abf927497f4</td>
-       <td>CVE-2022-34112</td>
-       <td>2022-07-22 23:15:00</td>
-       <td>An access control issue in the component /api/plugin/uninstall Dataease v1.11.1 allows attackers to arbitrarily uninstall the plugin, a right normally reserved for the administrator.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-34112">详情</a></td>
-      </tr>
-
-      <tr>
-       <td>b0cd45b69f10c314b317e459de225e54</td>
-       <td>CVE-2022-36408</td>
-       <td>2022-07-22 22:15:00</td>
-       <td>PrestaShop 1.6.0.10 through 1.7.x before 1.7.8.2 allows remote attackers to execute arbitrary code, aka a "previously unknown vulnerability chain" related to SQL injection, as exploited in the wild in July 2022.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-36408">详情</a></td>
-      </tr>
-
-      <tr>
-       <td>93f296cd394a9798a11dc64d5a2a698e</td>
-       <td>CVE-2022-25759</td>
-       <td>2022-07-22 20:15:00</td>
-       <td>The package convert-svg-core before 0.6.2 are vulnerable to Remote Code Injection via sending an SVG file containing the payload.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-25759">详情</a></td>
-      </tr>
-
-      <tr>
-       <td>dcc971bf56d32923e3425a2a1035647c</td>
-       <td>CVE-2022-34853</td>
-       <td>2022-07-22 17:15:00</td>
-       <td>Multiple Authenticated (contributor or higher user role) Persistent Cross-Site Scripting (XSS) vulnerabilities in wpWax Team plugin <= 1.2.6 at WordPress.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-34853">详情</a></td>
-      </tr>
-
-      <tr>
-       <td>9d3f3e80aa7798c06c97a0e43ca7693d</td>
-       <td>CVE-2022-34839</td>
-       <td>2022-07-22 17:15:00</td>
-       <td>Authentication Bypass vulnerability in CodexShaper's WP OAuth2 Server plugin <= 1.0.1 at WordPress.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-34839">详情</a></td>
-      </tr>
-
-      <tr>
-       <td>3cef2a9d59575add2901459858d1ae6d</td>
-       <td>CVE-2022-34650</td>
-       <td>2022-07-22 17:15:00</td>
-       <td>Multiple Authenticated (contributor or higher user role) Stored Cross-Site Scripting (XSS) vulnerabilities in wpWax Team plugin <= 1.2.6 at WordPress.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-34650">详情</a></td>
-      </tr>
-
-      <tr>
-       <td>2ff6973a906d86e8236c2655635969bd</td>
-       <td>CVE-2022-33960</td>
-       <td>2022-07-22 17:15:00</td>
-       <td>Multiple Authenticated (subscriber or higher user role) SQL Injection (SQLi) vulnerabilities in Social Share Buttons by Supsystic plugin <= 2.2.3 at WordPress.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-33960">详情</a></td>
-      </tr>
-
-      <tr>
-       <td>5876158595a02bc93f4dad183236dca4</td>
-       <td>CVE-2022-33901</td>
-       <td>2022-07-22 17:15:00</td>
-       <td>Unauthenticated Arbitrary File Read vulnerability in MultiSafepay plugin for WooCommerce plugin <= 4.13.1 at WordPress.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-33901">详情</a></td>
-      </tr>
-
-      <tr>
-       <td>e7284134795284f25f70ae17cddd12ac</td>
-       <td>CVE-2022-33191</td>
-       <td>2022-07-22 17:15:00</td>
-       <td>Authenticated (contributor or higher user role) Stored Cross-Site Scripting (XSS) vulnerability in Chinmoy Paul's Testimonials plugin <= 3.0.1 at WordPress.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-33191">详情</a></td>
       </tr>
 
      </tbody>
@@ -1676,6 +1676,86 @@
        <th width="5%">URL</th>
       </tr>
       <tr>
+       <td>76176df6fcb2b04e1cb0d1b0145ba13a</td>
+       <td>CVE-2022-21432</td>
+       <td>2022-07-25 20:14:25 <img src="imgs/new.gif" /></td>
+       <td>Oracle Database Server 安全漏洞</td>
+       <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=1f6e514473f248aba7ce76d406efb1d2">详情</a></td>
+      </tr>
+
+      <tr>
+       <td>45b5cd4586bf1d6ca0dc94e99f79d1e0</td>
+       <td>CVE-2022-21455</td>
+       <td>2022-07-25 20:14:21 <img src="imgs/new.gif" /></td>
+       <td>Oracle MySQL 输入验证错误漏洞</td>
+       <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=759aeff9c8184cdfbbf66d1f32bedd13">详情</a></td>
+      </tr>
+
+      <tr>
+       <td>1aa61fa7393888428756fd900e5d2271</td>
+       <td>CVE-2022-21429</td>
+       <td>2022-07-25 20:14:16 <img src="imgs/new.gif" /></td>
+       <td>Oracle Communications Billing and Revenue Management 安全漏洞</td>
+       <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=1829a322b75c403192867c5494001678">详情</a></td>
+      </tr>
+
+      <tr>
+       <td>010f6dffd0e8a8be7f4da6807d37e918</td>
+       <td>CVE-2022-21509</td>
+       <td>2022-07-25 20:14:07 <img src="imgs/new.gif" /></td>
+       <td>Oracle MySQL 输入验证错误漏洞</td>
+       <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=af76a620f2e14db1956e7f8ee10ebc19">详情</a></td>
+      </tr>
+
+      <tr>
+       <td>e5c78c8e0ca1d7259f21f17c3008c627</td>
+       <td>CVE-2022-21516</td>
+       <td>2022-07-25 20:14:02 <img src="imgs/new.gif" /></td>
+       <td>Oracle Enterprise Manager Base Platform 输入验证错误漏洞</td>
+       <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=c4398ce464e047b694c2b83f199210d6">详情</a></td>
+      </tr>
+
+      <tr>
+       <td>74b7c0e0f28e3d5cf39e3d66ca0a9334</td>
+       <td>CVE-2022-21515</td>
+       <td>2022-07-25 20:13:58 <img src="imgs/new.gif" /></td>
+       <td>Oracle MySQL 输入验证错误漏洞</td>
+       <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=db73d40b529a4bb596410f57ed1dda0a">详情</a></td>
+      </tr>
+
+      <tr>
+       <td>3a06f3d8e42f0b9abff5a615e4f2dada</td>
+       <td>CVE-2022-21520</td>
+       <td>2022-07-25 20:13:53 <img src="imgs/new.gif" /></td>
+       <td>Oracle PeopleSoft Enterprise PeopleTools 输入验证错误漏洞</td>
+       <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=7a140489ebf34fb790f123582432e4f7">详情</a></td>
+      </tr>
+
+      <tr>
+       <td>64be3b19cce6e8ddc115fec5757a3b41</td>
+       <td>CVE-2022-21519</td>
+       <td>2022-07-25 20:13:48 <img src="imgs/new.gif" /></td>
+       <td>Oracle MySQL 输入验证错误漏洞</td>
+       <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=1849f484f01c44b3b507d32cc9f13350">详情</a></td>
+      </tr>
+
+      <tr>
+       <td>d4c7b3a36bb407bc3e7634a2e392e85e</td>
+       <td>CVE-2022-21524</td>
+       <td>2022-07-25 20:13:43 <img src="imgs/new.gif" /></td>
+       <td>Oracle Solaris 输入验证错误漏洞</td>
+       <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=ae110b605d314ef68e980c743962a75f">详情</a></td>
+      </tr>
+
+      <tr>
+       <td>5a092c59d72a4c3e9aee02fd1592370f</td>
+       <td>CVE-2022-21522</td>
+       <td>2022-07-25 20:13:39 <img src="imgs/new.gif" /></td>
+       <td>Oracle MySQL 输入验证错误漏洞</td>
+       <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=941e3a0d491e4be283081fded87ad916">详情</a></td>
+      </tr>
+
+      <tr>
        <td>8a6c92ac7a6e944b33a43df103e2e11a</td>
        <td>CVE-2022-27929</td>
        <td>2022-07-24 20:15:49 <img src="imgs/new.gif" /></td>
@@ -1833,86 +1913,6 @@
        <td>2022-07-21 20:50:57</td>
        <td>Pexip Infinity 输入验证错误漏洞</td>
        <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=34b08b9e4cb3451b83afe92679eafdca">详情</a></td>
-      </tr>
-
-      <tr>
-       <td>6e90f45c8a92ae5cc1e8919e1ff61614</td>
-       <td>CVE-2022-26657</td>
-       <td>2022-07-21 20:50:48</td>
-       <td>Pexip Infinity 其他漏洞</td>
-       <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=81d3ffea5c0d4df4832a882d8802e0ff">详情</a></td>
-      </tr>
-
-      <tr>
-       <td>3f7fe7c321206be6f403dc5a73028b0f</td>
-       <td>CVE-2021-40013</td>
-       <td>2022-07-20 20:57:41</td>
-       <td>HUAWEI EMUI 授权问题漏洞</td>
-       <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=e3bdaca9a51146e1ae518cad604d5ac6">详情</a></td>
-      </tr>
-
-      <tr>
-       <td>3fe4a8ace90c3fcb629de7bd73122ad7</td>
-       <td>CVE-2022-30751</td>
-       <td>2022-07-20 20:57:36</td>
-       <td>SAMSUNG Mobile devices SemWifiApClient 安全漏洞</td>
-       <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=5641310928d144999c4bc8fe6c957148">详情</a></td>
-      </tr>
-
-      <tr>
-       <td>0016d1117036689d6dac1c5874078993</td>
-       <td>CVE-2022-30754</td>
-       <td>2022-07-20 20:57:31</td>
-       <td>SAMSUNG Mobile devices 安全漏洞</td>
-       <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=23dcd4c99aea4ce597c435ea4960d9e4">详情</a></td>
-      </tr>
-
-      <tr>
-       <td>913f35f99faa34b66c2d45a0e97241fd</td>
-       <td>CVE-2022-34819</td>
-       <td>2022-07-20 20:57:27</td>
-       <td>Siemens 多款产品 缓冲区错误漏洞</td>
-       <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=7168892b77d04a638fa80143d9be4cdd">详情</a></td>
-      </tr>
-
-      <tr>
-       <td>c244a29c207cc2cfddb42ff4adba8f52</td>
-       <td>CVE-2022-30757</td>
-       <td>2022-07-20 20:57:22</td>
-       <td>SAMSUNG Mobile devices isemtelephony 安全漏洞</td>
-       <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=3ae998ae608d465f8d16154b0420d825">详情</a></td>
-      </tr>
-
-      <tr>
-       <td>db1006e3b50ba9d28c7ffba2c7f05c94</td>
-       <td>CVE-2022-33688</td>
-       <td>2022-07-20 20:57:03</td>
-       <td>SAMSUNG Mobile devices 日志信息泄露漏洞</td>
-       <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=1e2225d54bb447fcac1802b8e334fa27">详情</a></td>
-      </tr>
-
-      <tr>
-       <td>645fbc12b41f0accb59903ce78d78bd6</td>
-       <td>CVE-2022-30753</td>
-       <td>2022-07-20 20:56:59</td>
-       <td>SAMSUNG Mobile devices SecSoterService 安全漏洞</td>
-       <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=cdfc5a04fb014e0b9ebf7ee59c339b5a">详情</a></td>
-      </tr>
-
-      <tr>
-       <td>57b8accc421f9cc50fc6774705060cdf</td>
-       <td>CVE-2022-21845</td>
-       <td>2022-07-19 20:46:38</td>
-       <td>Microsoft Windows Kernel 信息泄露漏洞</td>
-       <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=3e5ea6c8cc9641efa45a4b073ce203cf">详情</a></td>
-      </tr>
-
-      <tr>
-       <td>b4e0c356af7d8a4389a693d4b40cfa66</td>
-       <td>CVE-2022-22025</td>
-       <td>2022-07-19 20:46:33</td>
-       <td>Microsoft Internet Information Services 输入验证错误漏洞</td>
-       <td><a target="_blank" href="https://redqueen.tj-un.com/IntelDetails.html?id=1b80d16089e6402aa949016796ceb8e3">详情</a></td>
       </tr>
 
      </tbody>
