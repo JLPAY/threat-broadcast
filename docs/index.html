@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2022-10-25 18:11:16 -->
+<!-- RELEASE TIME : 2022-10-25 19:09:15 -->
 <html lang="zh-cn">
 
  <head>
@@ -284,6 +284,86 @@
        <th width="5%">URL</th>
       </tr>
       <tr>
+       <td>acb6022b75cdaa0cac9f68a2e238213f</td>
+       <td>CVE-2022-42890</td>
+       <td>2022-10-25 17:15:00 <img src="imgs/new.gif" /></td>
+       <td>A vulnerability in Batik of Apache XML Graphics allows an attacker to run Java code from untrusted SVG via JavaScript. This issue affects Apache XML Graphics prior to 1.16. Users are recommended to upgrade to version 1.16.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-42890">详情</a></td>
+      </tr>
+
+      <tr>
+       <td>90452e139fe2be3b5826990822d8c6bc</td>
+       <td>CVE-2022-41704</td>
+       <td>2022-10-25 17:15:00 <img src="imgs/new.gif" /></td>
+       <td>A vulnerability in Batik of Apache XML Graphics allows an attacker to run untrusted Java code from an SVG. This issue affects Apache XML Graphics prior to 1.16. It is recommended to update to version 1.16.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-41704">详情</a></td>
+      </tr>
+
+      <tr>
+       <td>e17d3ef34f9e926005bf771e46acb9c4</td>
+       <td>CVE-2022-39837</td>
+       <td>2022-10-25 17:15:00 <img src="imgs/new.gif" /></td>
+       <td>An issue was discovered in Connected Vehicle Systems Alliance (COVESA) dlt-daemon through 2.18.8. Due to a faulty DLT file parser, a crafted DLT file that crashes the process can be created. This is due to missing validation checks. There is a NULL pointer dereference,</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-39837">详情</a></td>
+      </tr>
+
+      <tr>
+       <td>3178b39f7249cb082ee2e3e51045e812</td>
+       <td>CVE-2022-39836</td>
+       <td>2022-10-25 17:15:00 <img src="imgs/new.gif" /></td>
+       <td>An issue was discovered in Connected Vehicle Systems Alliance (COVESA) dlt-daemon through 2.18.8. Due to a faulty DLT file parser, a crafted DLT file that crashes the process can be created. This is due to missing validation checks. There is a heap-based buffer over-read of one byte.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-39836">详情</a></td>
+      </tr>
+
+      <tr>
+       <td>1cbf842a30f50f1bf3afaff658257e91</td>
+       <td>CVE-2022-39351</td>
+       <td>2022-10-25 17:15:00 <img src="imgs/new.gif" /></td>
+       <td>Dependency-Track is a Component Analysis platform that allows organizations to identify and reduce risk in the software supply chain. Prior to version 4.6.0, performing an API request using a valid API key with insufficient permissions causes the API key to be written to Dependency-Track's audit log in clear text. Actors with access to the audit log can exploit this flaw to gain access to valid API keys. The issue has been fixed in Dependency-Track 4.6.0. Instead of logging the entire API key, only the last 4 characters of the key will be logged. It is strongly recommended to check historic logs for occurrences of this behavior, and re-generating API keys in case of leakage.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-39351">详情</a></td>
+      </tr>
+
+      <tr>
+       <td>21923ce0e6e8672ce6f27736d2d65c82</td>
+       <td>CVE-2022-39349</td>
+       <td>2022-10-25 17:15:00 <img src="imgs/new.gif" /></td>
+       <td>The Tasks.org Android app is an open-source app for to-do lists and reminders. The Tasks.org app uses the activity `ShareLinkActivity.kt` to handle "share" intents coming from other components in the same device and convert them to tasks. Those intents may contain arbitrary file paths as attachments, in which case the files pointed by those paths are copied in the app's external storage directory. Prior to versions 12.7.1 and 13.0.1, those paths were not validated, allowing a malicious or compromised application in the same device to force Tasks.org to copy files from its internal storage to its external storage directory, where they became accessible to any component with permission to read the external storage. This vulnerability can lead to sensitive information disclosure. All information in the user's notes and the app's preferences, including the encrypted credentials of CalDav integrations if enabled, could be accessed by third party applications installed on the same device. This issue was fixed in versions 12.7.1 and 13.0.1. There are no known workarounds.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-39349">详情</a></td>
+      </tr>
+
+      <tr>
+       <td>8688789795d4e7f3fa143f6329b3ea0b</td>
+       <td>CVE-2022-39345</td>
+       <td>2022-10-25 17:15:00 <img src="imgs/new.gif" /></td>
+       <td>Gin-vue-admin is a backstage management system based on vue and gin, which separates the front and rear of the full stack. Gin-vue-admin prior to 2.5.4 is vulnerable to path traversal, which leads to file upload vulnerabilities. Version 2.5.4 contains a patch for this issue. There are no workarounds aside from upgrading to a patched version.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-39345">详情</a></td>
+      </tr>
+
+      <tr>
+       <td>63d79437ce080b8954aad1372144a0f6</td>
+       <td>CVE-2022-39342</td>
+       <td>2022-10-25 17:15:00 <img src="imgs/new.gif" /></td>
+       <td>OpenFGA is an authorization/permission engine. Versions prior to version 0.2.4 are vulnerable to authorization bypass under certain conditions. Users whose model has a relation defined as a tupleset (the right hand side of a â€˜fromâ€™ statement) that involves anything other than a direct relationship (e.g. â€˜as selfâ€™) are vulnerable. Version 0.2.4 contains a patch for this issue.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-39342">详情</a></td>
+      </tr>
+
+      <tr>
+       <td>9c0b6755faa625a3f5fb17790dca8c65</td>
+       <td>CVE-2022-39341</td>
+       <td>2022-10-25 17:15:00 <img src="imgs/new.gif" /></td>
+       <td>OpenFGA is an authorization/permission engine. Versions prior to version 0.2.4 are vulnerable to authorization bypass under certain conditions. Users who have wildcard (`*`) defined on tupleset relations in their authorization model are vulnerable. Version 0.2.4 contains a patch for this issue.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-39341">详情</a></td>
+      </tr>
+
+      <tr>
+       <td>3144bfbc6573abd00cb58d9bd9797013</td>
+       <td>CVE-2022-39327</td>
+       <td>2022-10-25 17:15:00 <img src="imgs/new.gif" /></td>
+       <td>Azure CLI is the command-line interface for Microsoft Azure. In versions previous to 2.40.0, Azure CLI contains a vulnerability for potential code injection. Critical scenarios are where a hosting machine runs an Azure CLI command where parameter values have been provided by an external source. The vulnerability is only applicable when the Azure CLI command is run on a Windows machine and with any version of PowerShell and when the parameter value contains the `&` or `|` symbols. If any of these prerequisites are not met, this vulnerability is not applicable. Users should upgrade to version 2.40.0 or greater to receive a a mitigation for the vulnerability.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-39327">详情</a></td>
+      </tr>
+
+      <tr>
        <td>673e9a8a6f593dc165d88bcdf0a6b1fc</td>
        <td>CVE-2022-43680</td>
        <td>2022-10-24 14:15:00 <img src="imgs/new.gif" /></td>
@@ -441,86 +521,6 @@
        <td>2022-10-21 18:15:00</td>
        <td>Dell PowerScale OneFS, versions 9.0.0 up to and including 9.1.0.19, 9.2.1.12, and 9.3.0.6, contain sensitive data in log files vulnerability. A privileged local user may potentially exploit this vulnerability, leading to disclosure of this sensitive data.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-31239">详情</a></td>
-      </tr>
-
-      <tr>
-       <td>e91f05cdfbd637ff12fa9ccff1b3df95</td>
-       <td>CVE-2022-26870</td>
-       <td>2022-10-21 18:15:00</td>
-       <td>Dell PowerStore versions 2.1.0.x contain an Authentication bypass vulnerability. A remote unauthenticated attacker could potentially exploit this vulnerability under specific configuration. An attacker would gain unauthorized access upon successful exploit.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-26870">详情</a></td>
-      </tr>
-
-      <tr>
-       <td>9b7a92eb736d5cbcde10c6e1ce9dcab2</td>
-       <td>CVE-2020-5355</td>
-       <td>2022-10-21 18:15:00</td>
-       <td>The Dell Isilon OneFS versions 8.2.2 and earlier SSHD process improperly allows Transmission Control Protocol (TCP) and stream forwarding. This provides the remotesupport user and users with restricted shells more access than is intended.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2020-5355">详情</a></td>
-      </tr>
-
-      <tr>
-       <td>c5a22fd43df25c21edcab32eb3cf5c39</td>
-       <td>CVE-2022-42944</td>
-       <td>2022-10-21 16:15:00</td>
-       <td>A malicious crafted dwf or .pct file when consumed through DesignReview.exe application could lead to memory corruption vulnerability by read access violation. This vulnerability in conjunction with other vulnerabilities could lead to code execution in the context of the current process.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-42944">详情</a></td>
-      </tr>
-
-      <tr>
-       <td>6c5c604fe257d0b5c7505667a2b74196</td>
-       <td>CVE-2022-42943</td>
-       <td>2022-10-21 16:15:00</td>
-       <td>A malicious crafted dwf or .pct file when consumed through DesignReview.exe application could lead to memory corruption vulnerability by read access violation. This vulnerability in conjunction with other vulnerabilities could lead to code execution in the context of the current process.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-42943">详情</a></td>
-      </tr>
-
-      <tr>
-       <td>e627fb067f7799ceae63b2352f972467</td>
-       <td>CVE-2022-42942</td>
-       <td>2022-10-21 16:15:00</td>
-       <td>A malicious crafted dwf or .pct file when consumed through DesignReview.exe application could lead to memory corruption vulnerability by read access violation. This vulnerability in conjunction with other vulnerabilities could lead to code execution in the context of the current process.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-42942">详情</a></td>
-      </tr>
-
-      <tr>
-       <td>42f659f1fb4129929c636ffd6e782e63</td>
-       <td>CVE-2022-42941</td>
-       <td>2022-10-21 16:15:00</td>
-       <td>A malicious crafted dwf or .pct file when consumed through DesignReview.exe application could lead to memory corruption vulnerability by read access violation. This vulnerability in conjunction with other vulnerabilities could lead to code execution in the context of the current process.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-42941">详情</a></td>
-      </tr>
-
-      <tr>
-       <td>a40f56228bf4fe408e5079c6dabea09f</td>
-       <td>CVE-2022-42940</td>
-       <td>2022-10-21 16:15:00</td>
-       <td>A malicious crafted TGA file when consumed through DesignReview.exe application could lead to memory corruption vulnerability. This vulnerability in conjunction with other vulnerabilities could lead to code execution in the context of the current process.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-42940">详情</a></td>
-      </tr>
-
-      <tr>
-       <td>ad8d684ba202324a8cbb4d9b44803b85</td>
-       <td>CVE-2022-42939</td>
-       <td>2022-10-21 16:15:00</td>
-       <td>A malicious crafted TGA file when consumed through DesignReview.exe application could lead to memory corruption vulnerability. This vulnerability in conjunction with other vulnerabilities could lead to code execution in the context of the current process.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-42939">详情</a></td>
-      </tr>
-
-      <tr>
-       <td>3cd284ee9dd55316c73a598a130d7d09</td>
-       <td>CVE-2022-42938</td>
-       <td>2022-10-21 16:15:00</td>
-       <td>A malicious crafted TGA file when consumed through DesignReview.exe application could lead to memory corruption vulnerability. This vulnerability in conjunction with other vulnerabilities could lead to code execution in the context of the current process.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-42938">详情</a></td>
-      </tr>
-
-      <tr>
-       <td>89fa50099b59b7f3f8c4be017da0e312</td>
-       <td>CVE-2022-42937</td>
-       <td>2022-10-21 16:15:00</td>
-       <td>A malicious crafted .dwf or .pct file when consumed through DesignReview.exe application could lead to memory corruption vulnerability by write access violation. This vulnerability in conjunction with other vulnerabilities could lead to code execution in the context of the current process.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-42937">详情</a></td>
       </tr>
 
      </tbody>
